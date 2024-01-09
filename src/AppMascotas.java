@@ -34,6 +34,7 @@ public class AppMascotas{
                 int gameLoopCat = 0;
                 while (gameLoopCat != 6){
                     System.out.println("selecciona lo que quieres hacer con tu perro");
+                    System.out.println("1.- Alimentar mascota");
                     gameLoopCat ++;
                 }
                 return;
