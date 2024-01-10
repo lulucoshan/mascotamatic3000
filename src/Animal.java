@@ -7,7 +7,8 @@ public abstract class Animal {
     public abstract void imprimirDatos();
     public abstract void sonidoAnimal();
 }
-
+// la clase se encarga de darle nombre al animal ademas de asignarle un sonido en esta caso woof woof y para el gato
+//miau miau virtualmente son similares
 class Perro extends Animal{
     public void sonidoAnimal(){
         System.out.println("woof woof!");
